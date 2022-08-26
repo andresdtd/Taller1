@@ -1,5 +1,7 @@
 # Taller1
+
 Sub Taller()
+   
     ingresos = Int(InputBox("Ingrese los ingresos anuales de la empresa"))
     
     If ingresos <= 1000 And ingresos > 0 Then

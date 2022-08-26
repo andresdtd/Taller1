@@ -36,3 +36,5 @@ Sub Taller()
         End If
     End If
 End Sub
+
+![foto](capturataller.JPG)

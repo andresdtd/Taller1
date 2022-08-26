@@ -1,7 +1,7 @@
 # Taller1
 
 Sub Taller()
-    
+
     ingresos = Int(InputBox("Ingrese los ingresos anuales de la empresa"))
     
     If ingresos <= 1000 And ingresos > 0 Then
@@ -26,6 +26,8 @@ Sub Taller()
                         If ingresos >= 10000001 Then
                             valorImpuesto = ingresos * 0.25
                             MsgBox "Su impuesto a pagar sobre el valor de sus ingresos anuales es " & valorImpuesto
+                        Else
+                            MsgBox "No se puede calcular"
                         End If
                     End If
                 End If
